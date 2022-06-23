@@ -1,0 +1,66 @@
+.main {
+    padding: 15px 20px;
+
+}
+
+
+.widgets {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.widget {
+    width: 280px;
+    border-radius: 20px;
+    background-color: #fff;
+    height: 120px;
+    padding: 10px ;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+}
+
+.graph {
+    max-width: 920px;
+    border-radius: 20px;
+    background: white;
+    padding: 15px 20px;
+
+    margin: 20px 0px;
+
+}
+
+
+.widget-header {
+    display: flex;
+    /* flex-direction: column; */
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.arrow {
+    transform: rotate(270deg);
+    color: rgba(0, 128, 0, 0.63);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.widget-body {
+    padding: 10px;
+}
+
+
+.arrow-down {
+    transform: rotate(90deg);
+    color: crimson;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.widget > p{
+    margin-left: 5px;
+    font-weight: bold;
+    color:rgba(68, 68, 68, 0.608);
+}

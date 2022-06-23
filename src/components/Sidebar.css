@@ -1,0 +1,42 @@
+*{
+    user-select: none;
+    font-family: sans-serif;
+}
+.header,
+.body,
+.footer {
+    padding: 20px 40px
+}
+
+ul>span {
+    font-size: 13px;
+    color: rgba(68, 68, 68, 0.397);
+}
+
+
+ul li {
+    padding: 8px;
+    transition: all 0.5s;
+    font-weight: bold;
+
+
+}
+
+.left-side {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+ul li:hover {
+    background-color: crimson;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 23px;
+    margin-right: 5px;
+    font-weight: bold;
+}
